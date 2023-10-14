@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Katana">
+      <UniqueIdentifier>{4d7b5303-8c3d-4cab-87a4-d674ac1b00eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dagger">
+      <UniqueIdentifier>{0fcf035b-da90-4c2f-a8bc-4619d361412f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Blade">
+      <UniqueIdentifier>{9cb5fd89-a477-48ff-a211-380716e30307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Twinblades">
+      <UniqueIdentifier>{8f83b882-f22a-4953-b0dc-7a6495d6d8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dualhalberd">
+      <UniqueIdentifier>{55de7c0c-0d04-49ac-ada8-aaf46de7ceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Nunchucks">
+      <UniqueIdentifier>{8f65806f-a107-4fd5-8e56-bcfb77894426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Saber">
+      <UniqueIdentifier>{8fffefb5-dfef-48ce-966f-340ebb88b7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Rod">
+      <UniqueIdentifier>{fd733b87-98de-458d-bafc-094101b7ec2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sword">
+      <UniqueIdentifier>{5f15fd93-33db-4eec-977f-595ea686b5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Spear">
+      <UniqueIdentifier>{06114c93-349e-4d21-848e-d9e13958ab7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{43da5a54-9273-4e24-af2c-ab0bf1dc5e1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JiCangHai.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Katana.cpp">
+      <Filter>源文件\Katana</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>源文件\Dagger</Filter>
+    </ClCompile>
+    <ClCompile Include="Blade.cpp">
+      <Filter>源文件\Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinBlades.cpp">
+      <Filter>源文件\Twinblades</Filter>
+    </ClCompile>
+    <ClCompile Include="Dualhalberd.cpp">
+      <Filter>源文件\Dualhalberd</Filter>
+    </ClCompile>
+    <ClCompile Include="Nunchucks.cpp">
+      <Filter>源文件\Nunchucks</Filter>
+    </ClCompile>
+    <ClCompile Include="Saber.cpp">
+      <Filter>源文件\Saber</Filter>
+    </ClCompile>
+    <ClCompile Include="Rod.cpp">
+      <Filter>源文件\Rod</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>源文件\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Spear.cpp">
+      <Filter>源文件\Spear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LC_BasicWeaponAIO.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
